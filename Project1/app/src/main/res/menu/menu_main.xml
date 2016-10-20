@@ -1,0 +1,29 @@
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--tools:context=".activities.MainActivity">-->
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/action_view_most_popular"-->
+            <!--android:title="@string/action_sort_by_popularity" />-->
+        <!--<item-->
+            <!--android:id="@+id/action_view_highest_rated"-->
+            <!--android:title="@string/action_sort_by_rating" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/action_view_favourites"-->
+            <!--android:title="@string/action_view_favourites" />-->
+
+    <!--</group>-->
+
+<!--</menu>-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/spinnerr"
+        android:title="sort"
+
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.Spinner"
+        />
+</menu>
